@@ -1,14 +1,14 @@
-Individual Users
-================
+SAFE for Individual Users
+=========================
 
 `SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__ is an online user
 service management system. Through SAFE, individual users can request
 machine accounts, reset passwords, see available resources and track
 their usage. All users must be registered on SAFE before they can apply
-for their machine account.
+for an account on the DiRAC systems.
 
-Registering, logging in, passwords
-----------------------------------
+SAFE: Registering, logging in, passwords
+----------------------------------------
 
 How to register on SAFE
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -23,15 +23,16 @@ How to register on SAFE
    address and password
 
 At this point your account is registered on the SAFE but you do not
-have a machine account for DiRAC. To obtain a machine account on
+have a user account on any of the DiRAC systems. To obtain a machine account on
 DiRAC  please follow the instructions below at:
 
-* `How to request a machine account`_
+* `How to request a DiRAC system account`_
 
 How to login to SAFE and Overview of Main Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Go to the SAFE https://safe.epcc.ed.ac.uk/dirac/
+`Go to the SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__
+
 #. Type in the email address you have registered with
 #. Type in your SAFE password
 #. Click "Login"
@@ -41,7 +42,7 @@ How to login to SAFE and Overview of Main Page
 How to change your personal details on SAFE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <#login>`__. Then:
+`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Your details* and select *Update personal details*
 #. Make the changes you wish
@@ -56,7 +57,7 @@ you must type them again.
 How to change your email address on SAFE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <#login>`__. Then:
+`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Your details* and select *Update email*
 #. Enter the new email address and click *Request*
@@ -69,7 +70,7 @@ use the new email address when logging into SAFE
 How to change your SAFE password
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <#login>`__. Then:
+`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Your details* and select *Change SAFE password*
 #. Fill in the boxes and click *Change*
@@ -77,7 +78,7 @@ How to change your SAFE password
 How to reset your SAFE password
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Go to https://safe.epcc.ed.ac.uk/dirac/. Then:
+`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Enter your email address
 #. Click *Email*
@@ -92,22 +93,46 @@ a new password by clicking "Email". If that happens you will receive an
 email message out of the blue saying that your password has been
 changed. In this case you should certainly change your password again.
 
-How to request a machine account
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to add an SSH key to your SAFE account
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The minimum you require to create a DiRAC machine account is
+Some DiRAC systems may require you to register an SSH key in the SAFE
+before you can request an account on the system. To do this you will
+require a SSH key pair. You upload the *public part* of the key pair
+to your SAFE account as follows:
+
+`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+
+#. Go to the Menu *Your details* and select *Update personal details*
+#. Either copy and paste the public part of your SSH key into the
+   "SSH Public key" box or use the button to select the public key file 
+   on your computer.
+#. Click *Commit Update* to save the changes
+#. Go back to *Your details* and you will see the revised information
+
+Do not forget the last step, or nothing will happen.
+
+DiRAC Systems: Accounts, passwords
+----------------------------------
+
+How to request a DiRAC system account
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The minimum you require to create a DiRAC system account is
 a SAFE account and a *Project Code*. You should sign up for a SAFE 
 account as described above and Your project's PI or Project
 Manager should be able to supply you with the project code.
 
 Additionally, some DiRAC systems also require that you:
 
-* add the public part of a SSH key to your SAFE account
-to use when logging into the system. If this is required for
-your system, please upload this to SAFE by following the
-instructions at:
+* add the public part of a SSH key to your SAFE account to use when
+  logging into the system. If this is required for your system, 
+  you must upload this to SAFE before requesting an account by
+  following the instructions at: `How to add an SSH key to your SAFE account`_
+
 * provide a list of IP addresses that you will connect to the
-system with.
+  system with. You supply these as part of the sign up process
+  for a new account.
 
 The following table indicates what is required by each system:
 
@@ -118,34 +143,25 @@ The following table indicates what is required by each system:
 +----------------------+------------------+-------------------+
 | Durham COSMA         | Yes              | Yes               |
 +----------------------+------------------+-------------------+
-| Leicester Complexity | Yes              | Yes               |
+| Leicester Complexity | No               | Yes               |
 +----------------------+------------------+-------------------+
-| Cambridge HPCS       | Yes              | Yes               |
+| Cambridge HPCS       | No               | Yes               |
 +----------------------+------------------+-------------------+
-| Cambridge COSMOS     | Yes              | Yes               |
+| Cambridge COSMOS     | No               | Yes               |
 +----------------------+------------------+-------------------+
 
 Once you have thesem you should:
 
-`Login to SAFE <#login>`__. Then:
+`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Login accounts* and select *Request login account*
 #. Choose the project you want the account for in the "Choose Project
    for Machine Account" box.
-#. Choose the machine you want the account for in the "Machine Name"
-   box.
-   By default, it contains the current service machine.
-#. Enter the username you would prefer to use on the service machine
-   Every username must be unique, and you must create a new machine
-   account with a unique username for each project you work on.
-   Usernames cannot be used on multiple projects, even if the previous
-   project has finished.
-
-Next you will be asked to accept the `Terms and Conditions of
-Access <../policies/tandc.html>`__, by clicking
-the appropriate button. When you do this, you will be sent an
-acknowledgment by email, which will include your SAFE password— you
-should `change this as soon as possible. <#chpass>`__
+#. Choose the system you want the account on by selecting from the
+   available systems. (If a system is not available to select it may 
+   be because you have not yet added an SSH keyto your account.)
+#. You may need to specify an IP adress range from which you wish to
+   connect to the specified system.
 
 Now you have to wait for your PI or project manager to accept your
 request to register. When this has happened, the systems team are
@@ -157,7 +173,7 @@ How to reset a password on your machine account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you still remember your current machine account password, you can
-simply log in to DiRAC as normal and then use the passwd command
+simply log in to the DiRAC system as normal and then use the passwd command
 
 ::
 
@@ -169,7 +185,7 @@ new password twice.
 If you have forgotten your current password, or it has expired, then you
 can ask for it to be reset:
 
-`Login to SAFE <#login>`__. Then:
+`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Login accounts* and select the account you need the
    new password for
@@ -181,14 +197,15 @@ Now the systems team will change your password. When this has been done,
 you will be informed by email; this means that you can come back to SAFE
 and `pick up your new password <#getpass>`__.
 
-How can I pick up my password for the service machine?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How can I pick up my password for DiRAC system account?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Wait till you receive the email with your details. Then:
 
-#. `Login to SAFE <#login>`__.
+`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+
 #. Go to the Menu *Login accounts* and you will see your account on the
-   service machine listed. Click *username*
+   service machine listed. Click on the appropriate account.
 #. This will display details of your account. Click *View Login Account
    Password* You will need to enter in your SAFE password and then click
    *view*, and you will see your password to the service machine
@@ -202,7 +219,6 @@ type in your new, easy-to-remember password, twice.
 
 Note that when you change your password on the service machine in this
 way, this is not reflected on the SAFE.
-
 
 User Mailing Options
 --------------------
@@ -218,31 +234,7 @@ How to view user mailings
 How to get added to, or removed from the email mailing list?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are three mailing list options available.
-
--  The *Major Announcements* mailings will contain information on major
-   service upgrades and future plans. This option is enabled for all
-   users by default.
--  The *Service News* mailings will contain information on training
-   courses, newsletters, events, and other general announcements. This
-   option is enabled for all users by default.
--  The *System Status Notifications* will inform users when the service
-   goes up or down, including the reminders of the next planned
-   maintenance shutdowns. This option is not enabled by default, those
-   wishing to receive this information will need to explicitly subscribe
-   to it.
-
-Any combination of these three options may be selected via SAFE:
-
-#. `Login to SAFE <#login>`__.
-#. Go to the Menu *Your details* click *Email list settings*
-#. In the panel headed *Mailing list preferences* click on the options
-   you would like to subscribe to.
-#. Click *Update List Preferences*
-
-**Note 1:** There is an option to unsubscribe from the user mailings
-completely, which overrides any option enabled in *Mailing list
-preferences* panel.
+`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Click on the Menu *Your details* click *Update personal details* find
    *Opt out of user emails* field and click it
@@ -250,11 +242,10 @@ preferences* panel.
 
 Do not forget the last step, or nothing will happen.
 
-**Note 2:** Regardless of whether you are subscribed to a particular
+**Note:** Regardless of whether you are subscribed to the
 mailing list, you can still view ALL user mailings which have been sent,
 in SAFE. See `here <#mailings>`__ for details.
 
-| 
 
 Tracking and Managing Available Resources
 -----------------------------------------
@@ -262,15 +253,11 @@ Tracking and Managing Available Resources
 How to check how much time and space are available to you
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <#login>`__ and Go to the Menu *Login accounts*, select
+`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__
+and Go to the Menu *Login accounts*, select
 the *username* which you wish to see details for. You will then see the
 information for this account. You will see the quotas for the disk space
-(if the project group is using these) and how much is in use. You can
-also see which file systems your project is using. Under the heading
-'Volume' you will see entries for RDF (if used by your project), home
-and work and in brackets after each, the name of the filesystem they are
-hosted on, followed by the current usage by your project, and total
-quota.
+(if the project group/system is using these) and how much is in use.
 
 The budget values displayed are updated every morning, and the values
 shown for disk use are updated four times a day. For this reason, all
@@ -278,22 +265,10 @@ these values may not be completely up-to-date. If there is a lot of
 activity in your project, the numbers shown could be significantly
 different from from the current ones.
 
-How to request more kAUs/disk space
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-In the first instance, please contact the principal investigator, or the
-project manager of your project. The PI will then take the necessary
-steps to either allocate you more resources out of the project reserve,
-or to request an increase from the helpdesk/research councils.
-
-The helpdesk does not own project resources and has no authority to
-allocate them to individual users. This responsibility lies with the
-project PI/project manager.
-
 How to review the use you have made of the service, or the activity of the service as a whole
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <#login>`__. Then:
+`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Service information* and select *Report Generator*
 #. Select the report you wish to run and the format you want the output
@@ -307,15 +282,13 @@ If you are a PI or Project Manager, you will have access to additional
 reports to generate information on whole projects or groups as well as
 your own usage and the usage of the service as a whole.
 
-| 
-
 Miscellaneous
 -------------
 
 How to check the queries you have submitted to the helpdesk
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <#login>`__. Then:
+`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Help and Support* and select *Your support requests*
 #. Click the number of a query to check the contents of the query log
@@ -325,20 +298,3 @@ Note that some of the internal correspondence about a query will not be
 shown. You can also use SAFE to submit a query—use *New support
 request*.
 
-How to register your approval — or your annoyance
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-`Login to SAFE <#login>`__. Then:
-
-#. Go to the Menu *Help and Support* and select *Service feedback*
-#. Click on the scale somewhere between 5 penalty points and 5 gold
-   stars indicating your level of anger or delight.
-#. Optionally: enter a comment in the comment box.
-#. Click *Set Token*
-
-The tokens may appear in the public service reports, although your name
-will not be published with them. Although an entry in the comment field
-is optional, it necessarily gives greater weight to your
-feelings—without it we cannot tell why you have set a token.
-
-|

@@ -31,8 +31,10 @@ All DiRAC users have accounts on the DiRAC SAFE through which they can
 view the resources they have access to, administer their account,
 query their usage of the service, and submit support requests.
 
-More information on performing these tasks can be found in the
-:doc:`safe-guide-users` section.
+.. toctree::
+   :maxdepth: 2
+
+   safe-guide-users
 
 DiRAC SAFE for project leaders
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -42,12 +44,8 @@ use the SAFE to approve requests to join the project,
 and generate reports on the project 
 usage on DiRAC.
 
-More information on performing these tasks can be found in the
-:doc:`safe-guide-pi` section.
-   
 .. toctree::
    :maxdepth: 2
 
-   safe-guide-users
    safe-guide-pi
    
