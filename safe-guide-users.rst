@@ -42,7 +42,7 @@ How to login to SAFE and Overview of Main Page
 How to change your personal details on SAFE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Your details* and select *Update personal details*
 #. Make the changes you wish
@@ -57,7 +57,7 @@ you must type them again.
 How to change your email address on SAFE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Your details* and select *Update email*
 #. Enter the new email address and click *Request*
@@ -70,7 +70,7 @@ use the new email address when logging into SAFE
 How to change your SAFE password
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Your details* and select *Change SAFE password*
 #. Fill in the boxes and click *Change*
@@ -78,7 +78,7 @@ How to change your SAFE password
 How to reset your SAFE password
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Enter your email address
 #. Click *Email*
@@ -101,7 +101,7 @@ before you can request an account on the system. To do this you will
 require a SSH key pair. You upload the *public part* of the key pair
 to your SAFE account as follows:
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Your details* and select *Update personal details*
 #. Either copy and paste the public part of your SSH key into the
@@ -152,7 +152,7 @@ The following table indicates what is required by each system:
 
 Once you have thesem you should:
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Login accounts* and select *Request login account*
 #. Choose the project you want the account for in the "Choose Project
@@ -185,7 +185,7 @@ new password twice.
 If you have forgotten your current password, or it has expired, then you
 can ask for it to be reset:
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Login accounts* and select the account you need the
    new password for
@@ -202,7 +202,7 @@ How can I pick up my password for DiRAC system account?
 
 Wait till you receive the email with your details. Then:
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Login accounts* and you will see your account on the
    service machine listed. Click on the appropriate account.
@@ -234,7 +234,7 @@ How to view user mailings
 How to get added to, or removed from the email mailing list?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Click on the Menu *Your details* click *Update personal details* find
    *Opt out of user emails* field and click it
@@ -253,7 +253,7 @@ Tracking and Managing Available Resources
 How to check how much time and space are available to you
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__
 and Go to the Menu *Login accounts*, select
 the *username* which you wish to see details for. You will then see the
 information for this account. You will see the quotas for the disk space
@@ -268,7 +268,7 @@ different from from the current ones.
 How to review the use you have made of the service, or the activity of the service as a whole
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Service information* and select *Report Generator*
 #. Select the report you wish to run and the format you want the output
@@ -288,7 +288,7 @@ Miscellaneous
 How to check the queries you have submitted to the helpdesk
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. Go to the Menu *Help and Support* and select *Your support requests*
 #. Click the number of a query to check the contents of the query log

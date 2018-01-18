@@ -29,7 +29,7 @@ want a DiRAC system account follow the procedure described in
 Viewing your allocated resources
 --------------------------------
 
-`Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__. Then:
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
 
 #. From the Projects managed' menu select the project you want
    to see the resources for.
@@ -58,7 +58,7 @@ When a user requests an account in your project then you will receive a
 mail from SAFE asking you to login to approve or reject this request.
 To do this:
 
-#. `Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__.
+#. `Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__.
 #. You should see the menu *Projects managed* is highlighted orange,
    then this indicates that there is a request for project membership.
    Now you have to accept (or reject) each user's request.
@@ -87,7 +87,7 @@ except designate another project manager. You can designate as many
 project managers as you wish.
 
 #. Make sure the user has an account in your project.
-#. `Login to SAFE <https://www.epcc.ed.ac.uk/dirac/>`__.
+#. `Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__.
 #. Go to the Menu *Projects managed* and select the *project* you wish
    to appoint a project manager for. This will display a screen with a
    variety of options for managing the project.
