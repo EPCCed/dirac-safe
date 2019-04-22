@@ -13,6 +13,6 @@ We will hold the personal data you provide us throughout the period that you hav
 
 In addition, emails and other information communicated to our helpdesk may be retained to allow us to provide a better helpdesk service. We will not retain such information longer than 2 years after the end of the service they relate to.
 
-If you have any questions, please contact `The DiRAC Helpdesk <mailto:dirac-support@epcc.ed.ac.uk>`.
+If you have any questions, please contact `The DiRAC Helpdesk <mailto:dirac-support@epcc.ed.ac.uk>`_.
 
 This Privacy Statement is continued at `edin.ac/privacy <https://edin.ac/privacy>`__

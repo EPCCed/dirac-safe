@@ -14,4 +14,4 @@ When you sign up to the DiRAC SAFE you agree to the following acceptable use pol
 - You should not have multiple active SAFE registrations at the same time. If this happens accidentally contact us and we will be able to merge the registrations.
 - Do not apply for HPC service access on behalf of other people.
 - If you manage a project within the SAFE then, to allow you to do this, you will be given access to some personal data about members and applicants to the project. You are legally required to obey the relevant data protection legislation and not use this data for other purposes.
-- If you have any questions, please contact `The DiRAC Helpdesk <mailto:dirac-support@epcc.ed.ac.uk>`.
+- If you have any questions, please contact `The DiRAC Helpdesk <mailto:dirac-support@epcc.ed.ac.uk>`_.
