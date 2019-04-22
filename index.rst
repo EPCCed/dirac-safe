@@ -48,4 +48,15 @@ usage on DiRAC.
    :maxdepth: 2
 
    safe-guide-pi
+
+DiRAC SAFE Policies
+~~~~~~~~~~~~~~~~~~~
+
+Policies governing how you use SAFE and how we look after your personal data.
    
+.. toctree::
+   :maxdepth: 2
+
+   safe-use
+   safe-privacy
+
