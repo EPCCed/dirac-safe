@@ -253,21 +253,27 @@ How to view user mailings
 | Please `login to SAFE <#login>`__ and go to the section *View user
   mailings*. Press the *View* button to access the mailings.
 
-How to get added to, or removed from the email mailing list?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to get added to, or removed from e-mail mailing lists?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
+There are three mailing list options available.
 
-#. Click on the Menu *Your details* click *Update personal details* find
-   *Opt out of user emails* field and click it
-#. Click *Commit Update*
+  - The *Important Issues* mailings will contain information on major upgrades and future plans. This option is enabled for all users by default.
+  - The *Announcements* mailings will contain information on training courses, newsletters, events, and other general announcements. This option is enabled for all users by default.
+  - The *System Status Notifications* will inform users when major components of the service goes up or down, including the reminders of the next planned maintenance shutdowns. This option is not enabled by default, those wishing to receive this information will need to explicitly subscribe to it.
+  
+.. note:: *System Status Notifications* are only used currently for the Extreme Scaling (Tesseract) system.
+  
+Any combination of these three options may be selected via SAFE:
 
-Do not forget the last step, or nothing will happen.
+  - Login to `SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__.
+  - Go to the Menu *Your details* click *Update Email settings*
+  - In the panel headed *Update email settings* make sure there are ticks beside the options you would like to subscribe to.
+  - Click *Update List Preferences*
+  
+.. note:: There is an option to unsubscribe from the user mailings completely, which overrides any option enabled in *Mailing list preferences* panel. This will be set automatically to unsubscribe you if mailings sent to an email address are returned to us as "undeliverable". If you change your email address we recommend you check you have not been unsubscribed if your previous email address had gone out of service. This option is found via the menu *Your details* by clicking on *Update personal details*. The option is named *Opt out of user emails*. If you change this option, you must click *Commit Update* for the change to take effect.
 
-**Note:** Regardless of whether you are subscribed to the
-mailing list, you can still view ALL user mailings which have been sent,
-in SAFE. See `here <#mailings>`__ for details.
-
+.. note:: Regardless of whether you are subscribed to a particular mailing list, you can still view ALL user mailings which have been sent, in SAFE. See `How to view user mailings`_ for details.
 
 Tracking and Managing Available Resources
 -----------------------------------------
