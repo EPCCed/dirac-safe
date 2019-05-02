@@ -258,18 +258,18 @@ How to get added to, or removed from e-mail mailing lists?
 
 There are three mailing list options available.
 
-  - The *Important Issues* mailings will contain information on major upgrades and future plans. This option is enabled for all users by default.
-  - The *Announcements* mailings will contain information on training courses, newsletters, events, and other general announcements. This option is enabled for all users by default.
-  - The *System Status Notifications* will inform users when major components of the service goes up or down, including the reminders of the next planned maintenance shutdowns. This option is not enabled by default, those wishing to receive this information will need to explicitly subscribe to it.
+* The *Important Issues* mailings will contain information on major upgrades and future plans. This option is enabled for all users by default.
+* The *Announcements* mailings will contain information on training courses, newsletters, events, and other general announcements. This option is enabled for all users by default.
+* The *System Status Notifications* will inform users when major components of the service goes up or down, including the reminders of the next planned maintenance shutdowns. This option is not enabled by default, those wishing to receive this information will need to explicitly subscribe to it.
   
 .. note:: *System Status Notifications* are only used currently for the Extreme Scaling (Tesseract) system.
   
 Any combination of these three options may be selected via SAFE:
 
-  - Login to `SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__.
-  - Go to the Menu *Your details* click *Update Email settings*
-  - In the panel headed *Update email settings* make sure there are ticks beside the options you would like to subscribe to.
-  - Click *Update List Preferences*
+#. Login to `SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__.
+#. Go to the Menu *Your details* click *Update Email settings*
+#. In the panel headed *Update email settings* make sure there are ticks beside the options you would like to subscribe to.
+#. Click *Update List Preferences*
   
 .. note:: There is an option to unsubscribe from the user mailings completely, which overrides any option enabled in *Mailing list preferences* panel. This will be set automatically to unsubscribe you if mailings sent to an email address are returned to us as "undeliverable". If you change your email address we recommend you check you have not been unsubscribed if your previous email address had gone out of service. This option is found via the menu *Your details* by clicking on *Update personal details*. The option is named *Opt out of user emails*. If you change this option, you must click *Commit Update* for the change to take effect.
 
