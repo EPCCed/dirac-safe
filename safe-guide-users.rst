@@ -161,15 +161,13 @@ The following table indicates what is required by each system:
 +----------------------+------------------+-------------------+
 | System               | SSH Key Required | IP Range Required |
 +======================+==================+===================+
-| Edinburgh BG/Q       | No               | No                |
+| Extreme Scaling (Tesseract)      | No               | No                |
 +----------------------+------------------+-------------------+
-| Durham COSMA         | Yes              | Yes               |
+| Memory Intensive (COSMA)         | Yes              | Yes               |
 +----------------------+------------------+-------------------+
-| Leicester Complexity | No               | Yes               |
+| Data Intesive at Leicester (DIaL) | No               | Yes               |
 +----------------------+------------------+-------------------+
-| Cambridge HPCS       | No               | Yes               |
-+----------------------+------------------+-------------------+
-| Cambridge COSMOS     | No               | Yes               |
+| Data Intensive at Cambridge (DIaC)   | No               | No               |
 +----------------------+------------------+-------------------+
 
 Once you have thesem you should:
