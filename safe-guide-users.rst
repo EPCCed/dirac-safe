@@ -128,7 +128,7 @@ routes to do this.
 Adding SSH keys to access Extreme Scaling (Tesseract)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You You upload the *public part* of the key pair
+You upload the *public part* of the key pair
 to your Tesseract machine account using the DiRAC SAFE as follows:
 
 `Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
