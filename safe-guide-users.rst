@@ -180,23 +180,12 @@ Additionally, some DiRAC systems also require that you:
   you must upload this to SAFE before requesting an account by
   following the instructions at: `How to add an SSH key to your SAFE account`_
 
-* provide a list of IP addresses that you will connect to the
-  system with. You supply these as part of the sign up process
-  for a new account.
+The following list indicates what is required by each system:
 
-The following table indicates what is required by each system:
-
-+----------------------+------------------+-------------------+
-| System               | SSH Key Required | IP Range Required |
-+======================+==================+===================+
-| Extreme Scaling (Tesseract)      | No               | No                |
-+----------------------+------------------+-------------------+
-| Memory Intensive (COSMA)         | Yes              | Yes               |
-+----------------------+------------------+-------------------+
-| Data Intesive at Leicester (DIaL) | No               | Yes               |
-+----------------------+------------------+-------------------+
-| Data Intensive at Cambridge (DIaC)   | No               | No               |
-+----------------------+------------------+-------------------+
+* Extreme Scaling (Tesseract): Password (YES), SSH Key (YES)
+* Memory Intensive (COSMA): Password (NO), SSH Key (YES)
+* Data Intesive at Leicester (DIaL): Password (NO), SSH Key (YES)
+* Data Intensive at Cambridge (DIaC): Password (NO), SSH Key (YES)
 
 Once you have thesem you should:
 
@@ -207,15 +196,33 @@ Once you have thesem you should:
    for Machine Account" box.
 #. Choose the system you want the account on by selecting from the
    available systems. (If a system is not available to select it may 
-   be because you have not yet added an SSH keyto your account.)
-#. You may need to specify an IP adress range from which you wish to
-   connect to the specified system.
+   be because you have not yet added an SSH key to your account.)
 
 Now you have to wait for your PI or project manager to accept your
 request to register. When this has happened, the systems team are
 prompted to create your account on the service machine. Once this has
 been done, you will be sent an email. You can then `pick up your
 password <#getpass>`__ for the service machine from your SAFE account.
+
+How to join a project using an existing machine account
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
+
+#. Go to the Menu *Login accounts* and select the account you want to
+   use to join the project
+#. Click *username* which displays details of this service machine
+   account.
+#. Click the *Join Project* button
+#. Type the code for the project (e.g. dp001) in the box and hit the
+   *Join* button
+   
+Now you have to wait for your PI or project manager to accept your
+request to join the project. When this has happened, the systems team are
+prompted to link your account on the service machine to the new project.
+Once this has been done, you will be sent an email and you should be
+able to use the project code in your job scripts to charge your job
+against.
 
 How to reset a password on your machine account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
