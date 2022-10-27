@@ -125,7 +125,7 @@ require a SSH key pair.
 Depending on which DiRAC system you are accessing, there are two different
 routes to do this. 
 
-Adding SSH keys to access Extreme Scaling (Tesseract)
+Adding SSH keys to access Extreme Scaling (Tesseract, Tursa)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You upload the *public part* of the key pair
@@ -133,7 +133,7 @@ to your Tesseract machine account using the DiRAC SAFE as follows:
 
 `Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
 
-#. Go to the Menu *Login accounts* and select the Tesseract account you
+#. Go to the Menu *Login accounts* and select the Tesseract/Tursa account you
    want to add the SSH key to
 #. On the subsequent *Login account details* page click the *Add Credential* button
 #. Select *SSH public key* as the Credential Type and click *Next*
@@ -143,7 +143,7 @@ to your Tesseract machine account using the DiRAC SAFE as follows:
 #. Click *Add* to associate the public SSH key part with your account
 
 The public SSH key part will now be added to your login account on the 
-Tesseract system.
+Tesseract/Tursa system.
 
 Adding an SSH key to access DiRAC systems other than Extreme Scaling
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
