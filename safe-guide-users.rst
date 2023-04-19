@@ -182,7 +182,7 @@ Additionally, some DiRAC systems also require that you:
 
 The following list indicates what is required by each system:
 
-* Extreme Scaling (Tesseract): Password (YES), SSH Key (YES)
+* Extreme Scaling (Tursa): Password (YES), SSH Key (YES)
 * Memory Intensive (COSMA): Password (NO), SSH Key (YES)
 * Data Intesive at Leicester (DIaL): Password (NO), SSH Key (YES)
 * Data Intensive at Cambridge (DIaC): Password (NO), SSH Key (YES)
