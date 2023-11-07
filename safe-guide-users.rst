@@ -115,52 +115,7 @@ a new password by clicking "Email". If that happens you will receive an
 email message out of the blue saying that your password has been
 changed. In this case you should certainly change your password again.
 
-How to add an SSH key to your SAFE account
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Some DiRAC systems may require you to register an SSH key in the SAFE
-before you can request an account on the system. To do this you will
-require a SSH key pair.
-
-Depending on which DiRAC system you are accessing, there are two different
-routes to do this. 
-
-Adding SSH keys to access Extreme Scaling (Tesseract, Tursa)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-You upload the *public part* of the key pair
-to your Tesseract machine account using the DiRAC SAFE as follows:
-
-`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
-
-#. Go to the Menu *Login accounts* and select the Tesseract/Tursa account you
-   want to add the SSH key to
-#. On the subsequent *Login account details* page click the *Add Credential* button
-#. Select *SSH public key* as the Credential Type and click *Next*
-#. Either copy and paste the public part of your SSH key into the
-   "SSH Public key" box or use the button to select the public key file 
-   on your computer.
-#. Click *Add* to associate the public SSH key part with your account
-
-The public SSH key part will now be added to your login account on the 
-Tesseract/Tursa system.
-
-Adding an SSH key to access DiRAC systems other than Extreme Scaling
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-You upload the *public part* of the key pair
-to your SAFE account as follows:
-
-`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
-
-#. Go to the Menu *Your details* and select *Update personal details*
-#. Either copy and paste the public part of your SSH key into the
-   "SSH Public key" box or use the button to select the public key file 
-   on your computer.
-#. Click *Commit Update* to save the changes
-#. Go back to *Your details* and you will see the revised information
-
-Do not forget the *Commit Update* step, or nothing will happen.
 
 DiRAC Systems: Accounts, passwords
 ----------------------------------
@@ -223,6 +178,30 @@ prompted to link your account on the service machine to the new project.
 Once this has been done, you will be sent an email and you should be
 able to use the project code in your job scripts to charge your job
 against.
+
+How to add an SSH key to your SAFE account
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+All DiRAC systems may require you to register an SSH key in the SAFE
+before you can request an account on the system. To do this you will
+require a SSH key pair.
+
+You upload the *public part* of the key pair
+to your machine account using the DiRAC SAFE as follows:
+
+`Login to SAFE <https://safe.epcc.ed.ac.uk/dirac/>`__. Then:
+
+#. Go to the Menu *Login accounts* and select the account you
+   want to add the SSH key to
+#. On the subsequent *Login account details* page click the *Add Credential* button
+#. Select *SSH public key* as the Credential Type and click *Next*
+#. Either copy and paste the public part of your SSH key into the
+   "SSH Public key" box or use the button to select the public key file 
+   on your computer.
+#. Click *Add* to associate the public SSH key part with your account
+
+The public SSH key part will now be added to your login account. You will
+receive an email notification once the request has been completed.
 
 How to reset a password on your machine account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
