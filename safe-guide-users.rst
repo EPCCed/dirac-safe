@@ -179,8 +179,8 @@ Once this has been done, you will be sent an email and you should be
 able to use the project code in your job scripts to charge your job
 against.
 
-How to add an SSH key to your SAFE account
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How to add an SSH key to your account
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 All DiRAC systems may require you to register an SSH key in the SAFE
 before you can request an account on the system. To do this you will
